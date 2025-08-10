@@ -53,13 +53,13 @@ export default defineConfigWithTheme<ThemeConfig>({
   },
 
   // 站点标题配置
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  title: "Sensei's 凯莉kaily",
+  description: "Sensei's 凯莉kaily",
 
   themeConfig: {
     //banner区配置
     videoBanner: false, //是否显示视频背景
-    name: "Sensei's 部落格", //首页标题
+    name: "Sensei's 凯莉kaily", //首页标题
     welcomeText: 'Hello, VitePress', //首页欢迎语
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'], //首页motto
     social: [ //社交链接配置(netease_music,coolapk,reddit)
