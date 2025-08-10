@@ -1,5 +1,7 @@
 import { defineConfigWithTheme } from 'vitepress'
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
+import markdownItVideo from "@vrcd-community/markdown-it-video";
+
 export interface ThemeConfig {
   //navBar
   menuList: { name: string; url: string }[]
@@ -114,7 +116,11 @@ export default defineConfigWithTheme<ThemeConfig>({
       // use more markdown-it plugins!
       md.use(mdItCustomAttrs, 'image', {
         'data-fancybox': 'gallery',
-      })
+      });
+      md.use(markdownItVideo, {
+        youtube: {width: '100%', height: '634px'},
+        bilibili: {width: '100%', height: '634px'}
+      });
     },
   },
 })
