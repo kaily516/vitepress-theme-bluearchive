@@ -15,5 +15,6 @@ head:
 
 ---
 
-[//]: # (@[video]&#40;/kaily/video/仿what is love.mp4&#41;)
-@[bilibili](BV1Rp421d7oy)
+@[video](/kaily/video/仿what is love.mp4)
+
+[//]: # (@[bilibili]&#40;BV1Rp421d7oy&#41;)
